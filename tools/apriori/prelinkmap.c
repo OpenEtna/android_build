@@ -24,7 +24,7 @@ static mapentry *maplist = 0;
    prelink map, or the prelink step will fail.
 */
 
-#define PRELINK_MIN 0x90000000
+#define PRELINK_MIN 0x50000000
 #define PRELINK_MAX 0xBFFFFFFF
 
 void pm_init(const char *file)
