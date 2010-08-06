@@ -3,7 +3,7 @@
 # This is repeated in config.mk, since envsetup.sh runs that file
 # directly.
 SHELL := /bin/bash
-WITH_JIT := true
+
 # this turns off the suffix rules built into make
 .SUFFIXES:
 
@@ -748,3 +748,4 @@ modules:
 .PHONY: showcommands
 showcommands:
 	@echo >/dev/null
+

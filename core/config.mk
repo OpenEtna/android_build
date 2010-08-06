@@ -7,7 +7,7 @@
 # This is repeated from main.mk, since envsetup.sh runs this file
 # directly.
 SHELL := /bin/bash
-WITH_JIT := true
+
 # Standard source directories.
 SRC_DOCS:= $(TOPDIR)docs
 # TODO: Enforce some kind of layering; only add include paths
